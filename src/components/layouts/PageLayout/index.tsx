@@ -49,8 +49,8 @@ const Layout = ({ children }: LayoutProps) => {
               left: 0,
               width: "100%",
               height: "100%",
-              bgcolor: "rgba(255, 255, 255, 0.6)", // semi-transparent white
-              backdropFilter: "blur(4px)", // blurred effect
+              bgcolor: "rgba(255, 255, 255, 0.6)",
+              backdropFilter: "blur(4px)",
               zIndex: 10,
             }}
           />

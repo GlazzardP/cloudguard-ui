@@ -5,12 +5,11 @@ import CustomModal from "../../../components/modals/BasicModal";
 import { useDispatch, useSelector } from "react-redux";
 import type { AppDispatch, RootState } from "../../../app/redux/store";
 import CGScoreIssues from "../../../components/modals/CGScoreModalContent";
-import { useState } from "react";
 import { closeModal } from "../../../app/redux/slices/modalSlice";
 
 const CGScoreCard = () => {
   const { open } = useSelector((state: RootState) => state.modal);
-  // const [modalOpen, setModalOpen] = useState(false);
+
   const dispatch = useDispatch<AppDispatch>();
 
   const score = 89;

@@ -13,7 +13,6 @@ declare module "@mui/material/styles" {
     };
   }
 
-  // allow configuration using `createTheme`
   interface ThemeOptions {
     custom: {
       drawerWidth?: number;
@@ -43,7 +42,7 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           boxShadow: "none",
-          backgroundImage: "none", // removes gradient overlays if present
+          backgroundImage: "none",
           border: "none",
           backgroundColor: "#151C3A",
         },

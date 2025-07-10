@@ -15,8 +15,8 @@ import type { AppDispatch, RootState } from "../../app/redux/store";
 interface CustomModalProps {
   title: string;
   children?: React.ReactNode;
-  open: boolean;
-  setModalOpen: Dispatch<SetStateAction<boolean>>;
+  // open: boolean;
+  // setModalOpen: Dispatch<SetStateAction<boolean>>;
 }
 
 const CustomModal = ({

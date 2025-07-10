@@ -51,7 +51,7 @@ export interface Incident {
   level: IncidentLevel;
   incidentName: string;
   code: string;
-  date: string; // could be Date type if you parse it, but string for raw data
+  date: string;
 }
 
 export const FAKE_TRIAGE_DATA: Incident[] = [
