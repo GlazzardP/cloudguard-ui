@@ -6,7 +6,7 @@ Vite requires a recent version of node to run so you may need to install Node, I
 
 Commands:
 
-1. `mpn ci` (node_modules are in a `.gitignore` file so these should appear after this command)
+1. `npm ci` (node_modules are in a `.gitignore` file so these should appear after this command)
 2. `npm run dev` - This will spin up your localhost: http://localhost:5173/
 
 ### Libraries
